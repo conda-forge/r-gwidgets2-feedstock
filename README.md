@@ -1,11 +1,11 @@
-About r-gwidgets2
-=================
+About r-gwidgets2-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gwidgets2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jverzani/gWidgets2
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gwidgets2-feedstock/blob/main/LICENSE.txt)
 
 Summary: Re-implementation of the 'gWidgets' API. The API is defined in this package. A second, toolkit-specific package is required to use it. There are three in development: 'gWidgets2RGtk2', 'gWidgets2Qt', and 'gWidgets2tcltk'.
 
