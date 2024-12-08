@@ -1,4 +1,4 @@
-{% set version = "1.0-9" %}
+{% set version = "1.0-10" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gWidgets2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gWidgets2/gWidgets2_{{ version }}.tar.gz
-  sha256: d4d9ef7b2788efeb8209aa8dd610af4cd86286392fbdf9ea70bcfeafda95d4c5
+  sha256: 66979027be333b3c10bbcc336d69546c5f586bd65b1854064000497ea6f79813
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
